@@ -8,22 +8,22 @@
 Tiehallinnon [Hoidon alueurakoiden tiestötietopalvelun vaatimusmäärittely](http://alk.tiehallinto.fi/julkaisut/pdf2/4000577-v-hava_loppuraportti.pdf)
 
 - lukijakunta, kenelle dokumentti on tarkoitettu?
-Dokumentti tarkoitettu tarjouskiplailuun osallistuville mahdollisille järjestelmän toimittajille
+	- Dokumentti tarkoitettu tarjouskiplailuun osallistuville mahdollisille järjestelmän toimittajille
 
 - tilanne?
-Sähköistä hankintamenettelyä oltiin ottamassa vaiheittain käyttöön ja laajentamassa (tilanne 2007), tavoitteena saada käyttöön 2010
+	- Sähköistä hankintamenettelyä oltiin ottamassa vaiheittain käyttöön ja laajentamassa (tilanne 2007), tavoitteena saada käyttöön 2010
 
 - motivaatio, miksi dokumentti on luotu?
-Tavoitteena päästä hankkimaan järjestelmä ja kilpailuttamaan sen toteutus; järjestelmän kuvaus
+	- Tavoitteena päästä hankkimaan järjestelmä ja kilpailuttamaan sen toteutus; järjestelmän kuvaus
 
 - dokumentin rakenne, millainen se on esim. verrattuna projektissa käytettävään malliin? Kts. myös [Wikipediasta löytyvä runko](http://fi.wikipedia.org/wiki/Ohjelmiston_vaatimusm%C3%A4%C3%A4rittely).
-On kuvattu nykytilaa, 
+	- On kuvattu nykytilaa, 
 
 
 ##### (käyttötapaukset)
 - mitä sillä voi tehdä?
 - käyttötapauskaavio(t)?
-Ei ole.
+	- Ei ole.
 
 - kuinka yksityiskohtaisesti kuvattu?
 
