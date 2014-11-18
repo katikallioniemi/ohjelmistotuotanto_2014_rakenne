@@ -23,7 +23,7 @@ Tiehallinnon [Hoidon alueurakoiden tiestötietopalvelun vaatimusmäärittely](ht
 ##### (käyttötapaukset)
 - mitä sillä voi tehdä?
 - käyttötapauskaavio(t)?
-	- Ei ole.
+	- On
 
 - kuinka yksityiskohtaisesti kuvattu?
 
