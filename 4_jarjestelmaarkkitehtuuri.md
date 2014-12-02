@@ -6,29 +6,29 @@
 Järjestelmän pääkomponentteja ovat:
 
 - Paikannusjärjestelmä
-	- Fyysinen paikannuslaite, pitkän kantaman etäluettava RFID-tunniste
-	- Paikannusverkon tukiasemat, jotka tekevät kutsuja kantamansa sisällä oleville tunnisteille
-	- Ohjelmistokerros, jonka vastuulla on
+	- **Fyysinen paikannuslaite**, pitkän kantaman etäluettava RFID-tunniste
+	- **Paikannusverkon tukiasemat**, jotka tekevät kutsuja kantamansa sisällä oleville tunnisteille
+	- **Ohjelmistokerros**, jonka vastuulla on
 		- Lähettää ajoitetut paikannuskyselypyynnöt tukiasemille
 		- tukiasemilta saapuvan paikannusdatan käsittely (virhedatan siivoaminen, kelvollisen datan sovittaminen pohjapiirrosmalliin)
 		
-- Tietokantajärjestelmä
+- **Tietokantajärjestelmä**
 	- paikannusdatan tallennus
 	- käyttäjätietojen tallennus
 	- muiden tarvittavien tietojen tallennus
-
-- Sovelluslogiikan sisältävä ohjelmistokerros
+	
+- **Sovelluslogiikan** sisältävä **ohjelmistokerros**
 	- Ottaa vastaan käyttäjien hakukyselyt, logiikka-API
 	- Tekee tietokannalle hakupyynnöt
 	- Prosessoi saadusta datasta kulloisenkin hakupyynnön edellyttämän tulosteen
 	- Välittää tulosteen käyttöliittymäkerrokselle
 
-- Käyttäjienhallintasovellus
+- **Käyttäjienhallintasovellus**
 	- Käyttäjätietojen hallinta
 	- Käyttöoikeuksien hallinta
 	- Autentikointi- ja käyttäjätietojen tarjoaminen sovelluslogiikalle ja käyttöliittymälle
 	
-- Käyttöliittymäkerros, esim. web-sovellus
+- **Käyttöliittymäkomponentti**, esim. web-sovellus
 	- Sisältää mukautetut käyttöliittymät eri käyttäjäryhmille
 		- Tavanomainen käyttäjä (kyselyiden teko)
 		- Käyttäjäjien hallinnointi (käyttäjien lisääminen ja poistaminen)
