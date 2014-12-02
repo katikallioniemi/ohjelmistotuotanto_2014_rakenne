@@ -6,11 +6,11 @@
 Järjestelmän pääkomponentteja ovat:
 
 - Paikannusjärjestelmä
-	- Fyysinen paikannuslaite
-	- Paikannuslaitteita kutsuvat paikannusverkon tukiasemat
+	- Fyysinen paikannuslaite, pitkän kantaman etäluettava RFID-tunniste
+	- Paikannusverkon tukiasemat, jotka tekevät kutsuja kantamansa sisällä oleville tunnisteille
 	- Ohjelmistokerros, jonka vastuulla on
-		- Paikannuksen kyselypyynnöt käyttäjien laitteille
-		- Saapuvan paikannusdatan käsittely (virhedatan siivoaminen, kelvollisen datan sovittaminen pohjapiirrosmalliin)
+		- Lähettää ajoitetut paikannuskyselypyynnöt tukiasemille
+		- tukiasemilta saapuvan paikannusdatan käsittely (virhedatan siivoaminen, kelvollisen datan sovittaminen pohjapiirrosmalliin)
 		
 - Tietokantajärjestelmä
 	- paikannusdatan tallennus
@@ -35,5 +35,6 @@ Järjestelmän pääkomponentteja ovat:
 		- Järjestelmän ylläpitäjät (käytön seuranta, järjestelmän seuranta)
 		
 		
-PAIKANNUSJÄRJESTELMÄ
-	Järjestelmän käytössä oletetaan, että jokaisella tiloissa oleskelevalla henkilöllä on mukanaan pieni laite, joka pystyy vastaamaan paikannustukiaseman lähettämiin kutsuihin. Käytännössä tämänkaltainen laite voisi olla pieni, passiivinen RFID-tägi, joka on luettavissa useiden metrien etäisyydeltä. Jos lukukantama jää tavoitetta lyhyemmäksi, voidaan paikannuspyyntöjen varmuutta parantaa sijoittamalla tukiasemia kulkuväylien pullonkauloihin, kuten huoneiden ja käytävien oviaukkojen luokse, kulunvalvontalaitteiden yhteyteen yms.
+##PAIKANNUSJÄRJESTELMÄ
+
+Järjestelmän käytössä oletetaan, että jokaisella tiloissa oleskelevalla henkilöllä on mukanaan pieni laite, joka pystyy vastaamaan paikannustukiaseman lähettämiin kutsuihin. Käytännössä tämänkaltainen laite voisi olla pieni, passiivinen RFID-tunniste, joka on luettavissa useiden metrien etäisyydeltä. Jos lukukantama jää tavoitetta lyhyemmäksi, voidaan paikannuspyyntöjen varmuutta parantaa sijoittamalla tukiasemia kulkuväylien pullonkauloihin, kuten huoneiden ja käytävien oviaukkojen luokse, kulunvalvontalaitteiden yhteyteen yms.
