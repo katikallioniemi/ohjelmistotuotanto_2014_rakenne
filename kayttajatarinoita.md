@@ -1,9 +1,8 @@
 K‰ytt‰j‰tarinoita:
 ---------------------
 
-*Muurahaisena haluan, ett‰ j‰rjestelm‰ on kevyt ja huomaamaton k‰ytt‰‰, jotta siit‰ olisi minulle mahdollisimman v‰h‰n vaivaa
+*Muurahaisena haluan, ett‰ j‰rjestelm‰ on kevyt ja omalta kannaltani huomaamaton, jotta siit‰ olisi minulle mahdollisimman v‰h‰n vaivaa. 
 *Muurahaisena haluan tiet‰‰, mihin tietoja k‰ytet‰‰n ja kenen toimesta, jotta minun on helpompi hyv‰ksy‰  yksityisyyteni mahdollinen vaarantaminen
-*
 
 *Lounasruokalan esimiehen‰ haluan hakea ruokalan k‰ytt‰j‰tiedot lounaan ruuhka-ajalta, jotta pˆytien sijoittelua voidaan kehitt‰‰
 *Tiedon k‰ytt‰j‰n‰ haluan tallentaa toimialani piiriss‰ olevat tilat omaan n‰kym‰‰ni, jotta p‰‰sen tilojeni tietoihin k‰siksi nopeasti myˆhemmin
