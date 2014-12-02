@@ -2,7 +2,7 @@
 
 
 ###Muurahaiset
-*Muurahaisena haluan, ett‰ j‰rjestelm‰ on kevyt ja omalta kannaltani huomaamaton, jotta siit‰ olisi minulle mahdollisimman v‰h‰n vaivaa. 
+* Muurahaisena haluan, ett‰ j‰rjestelm‰ on kevyt ja omalta kannaltani huomaamaton, jotta siit‰ olisi minulle mahdollisimman v‰h‰n vaivaa. 
 * Muurahaisena haluan tiet‰‰, mihin tietoja k‰ytet‰‰n ja kenen toimesta, jotta minun on helpompi hyv‰ksy‰  yksityisyyteni mahdollinen vaarantaminen
 * Muurahaisena haluan, ett‰ minun tallusteluani talossa ei pysty seuraamaan, koska olisi kammottava ajatus ett‰ joku kytt‰isi minua
 
