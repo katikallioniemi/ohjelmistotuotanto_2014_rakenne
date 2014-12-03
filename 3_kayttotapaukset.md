@@ -11,11 +11,11 @@
 ##Käyttäjäryhmät
 Järjestelmän käyttäjäryhmät ovat "muurahaiset", "kyylät" ja ylläpitäjät. 
 
-**Muurahaiset** ovat tilan käyttäjät. He eivät suoraan vuorovaikuta sovelluksen kanssa, he pitävät etäluettavaa tunnistetta mukanaan. Käyttäessään tiloja järjestelmä etälukee tunnisteiden sijainnit, jotka tallennetaan tietokantaan. 
+**Muurahaiset** ovat tilojen käyttäjiä. He eivät suoraan vuorovaikuta sovelluksen kanssa, vaan ainoastaan tuottavat paikkatietodataa. Oletuksena jokaisella tilojen käyttäjällä on mukanaan etäluettava tunniste, joka on luettavissa käyttäjän oleskellessa missä tahansa rakennuksen tiloissa.
 
 **Kyylät** ovat analyysisovelluksen pääkäyttäjäryhmä. Heillä on pääsy järjestelmän tuottamaan analyysitietoon tilojen käytöstä. He hyödyntävät järjestelmän tuottamaa tietoa, esim. tilojen tehokkaampaa käyttöä suunniteltaessa.
 
-**Ylläpitäjät** hallinnoivat järjestelmää: pitävät huolen tilatietojen ajankohtaisuudesta, lisäävät käyttäjiä ja muokkaavat käyttäjien oikeuksia, lisäävät muurahaisten tunnisteet järjestelmään.
+**Ylläpitäjät** hallinnoivat järjestelmää: pitävät huolen tilatietojen ajantasaisuudesta, lisäävät käyttäjiä ja muokkaavat käyttäjien oikeuksia, lisäävät muurahaisten etätunnisteet järjestelmään.
 
 ## Käyttötapaukset
 
@@ -23,11 +23,18 @@ Järjestelmän käyttäjäryhmät ovat "muurahaiset", "kyylät" ja ylläpitäjä
 
 ## Keskeiset käyttötapausskenaariot
 
+##### Ole tiloissa
+- ** käyttäjäryhmä:** "Muurahainen"
+- ** alkutila (initial state):** Henkilö saapuu kiinteistöön, mukanaan järjestelmään kuuluva, toimiva etälukutunniste.
+- **normaali kulku (normal flow):**
+	1. Henkilö oleskelee tiloissa
+- **lopputila (end state):**
+	- Käyttäjä poistuu 
 
 ##### Käyttötapaus: hae tilan käyttöhistoria
 - ** käyttäjäryhmä**: "Kyylät"
-- ** alkutila (initial state):** Käyttäjä on kirjautunut järjestelmään
-- **normaali kulku (normal flow): **
+- ** alkutila:** Käyttäjä on kirjautunut järjestelmään
+- **normaali kulku: **
     1. Valitse valikosta hakutoiminto
     1. Järjestelmä siirtyy hakusivulle
     2. Valitse haluttu tila, jonka data esitetään:
