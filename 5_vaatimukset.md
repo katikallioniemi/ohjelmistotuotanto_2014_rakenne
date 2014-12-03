@@ -11,14 +11,31 @@
 ----------------------------------------
 
 ### Funktionaaliset vaatimukset
-- tilojen haku:
-    - tilan voi lisätä tilavalintaan korostamalla huoneen pohjapiirroksesta
-	- tilan voi lisätä tilavalintaan kirjoittamalla tilan nimen (alun) tai tunnuksen
-	- tilan voi lisätä tilavalintaan valitsemalla sen luettelosta
-    - luettelossa näytettäviä tiloja voi rajata toiminnallisuuksittain
-	- haun tilavalinnat voi tallentaa
-	- tallennetun tilavalinnan saa uuden haun pohjaksi
+
+##### tilojen haku
+- ennen haun suorittamista käyttäjä lisää tiloja tilavalintaan
+- tilan voi lisätä tilavalintaan korostamalla huoneen pohjapiirroksesta
+- tilan voi lisätä tilavalintaan kirjoittamalla tilan nimen (alun) tai tunnuksen hakuruutuun
+    - järjestelmä ehdottaa kolmen merkin kirjoittamisen jälkeen täydennystä tilan nimelle 
+    - käyttäjä voi valita ehdotusten joukosta yhden tai useamman
+- tilan voi lisätä tilavalintaan valitsemalla sen luettelosta
+- luettelossa näytettäviä tiloja voi rajata toiminnallisuuksittain, 
+- hakuvalinnat voi tallentaa 
+- tallennetun haun voi nimetä
+- tallennetun hakuvalinnan saa uuden haun pohjaksi
+
+##### tulosten näyttäminen
+- tulokset saadaan ulos raakadatana
+- tulokset saadaan ulos taulukkona
+- tulokset saadaan ulos heat map -esityksenä
+
+##### ylläpito
+- ylläpitäjä voi tarkastella/rajata/lisätä käyttäjän oikeuksia tarkastella tiloja 
+- ylläpitäjä voi poistaa käyttäjän
+- ylläpitäjä voi lisätä käyttäjän
 
 
 ### Ei-funktionaaliset vaatimukset
-- järjestelmä ehdottaa kolmen merkin kirjoittamisen jälkeen täydennystä tilan nimelle
+- uuden käyttäjän on voitava suorittaa tilahaku ilman ohjekirjaa <3 minuutissa
+- paikannusjärjestelmä voi lukea/paikantaa 2000 tunnistetta kerralla
+- paikannustukiasemien verkko kattaa rakennuksen kaikki tilat
