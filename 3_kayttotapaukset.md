@@ -8,14 +8,21 @@
   * mahdolliset vaihtoehtoiset kulut (alternate flow)
 ---------------  
 
-# Käyttötapaukset
 ##Käyttäjäryhmät
 Järjestelmän käyttäjäryhmät ovat "muurahaiset", "kyylät" ja ylläpitäjät. 
 
+**Muurahaiset** ovat tilan käyttäjät. He eivät suoraan vuorovaikuta sovelluksen kanssa, he pitävät etäluettavaa tunnistetta mukanaan. Käyttäessään tiloja järjestelmä etälukee tunnisteiden sijainnit, jotka tallennetaan tietokantaan. 
+
+**Kyylät** ovat analyysisovelluksen pääkäyttäjäryhmä. Heillä on pääsy järjestelmän tuottamaan analyysitietoon tilojen käytöstä. He hyödyntävät järjestelmän tuottamaa tietoa, esim. tilojen tehokkaampaa käyttöä suunniteltaessa.
+
+**Ylläpitäjät** hallinnoivat järjestelmää: lisäävät käyttäjiä ja muokkaavat käyttäjien oikeuksia, lisäävät muurahaisten tunnisteet järjestelmään.
+
+## Käyttötapaukset
+
+![Käyttäjätapaukset](http://users.metropolia.fi/~katikal/files/ohtu-projekti-UseCaseD.png)
+
 ## Keskeiset käyttötapaukset
 
-### "Muurahaiset"
-- Pidä etäluettava tunniste mukana
 
 ### "Kyylät"
 ##### Hae tila
