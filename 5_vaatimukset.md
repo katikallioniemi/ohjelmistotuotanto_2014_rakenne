@@ -12,10 +12,13 @@
 
 ### Funktionaaliset vaatimukset
 - tilojen haku:
-	- tilavalinnan voi tehdä korostamalla huoneen pohjapiirroksesta
-	- tilavalinnan voi tehdä kirjoittamalla tilan nimen (alun) tai tunnuksen
-	- valittavia tiloja voi rajata toiminnallisuuksittain
-	- tilahaun voi tallentaa
+    - tilan voi lisätä tilavalintaan korostamalla huoneen pohjapiirroksesta
+	- tilan voi lisätä tilavalintaan kirjoittamalla tilan nimen (alun) tai tunnuksen
+	- tilan voi lisätä tilavalintaan valitsemalla sen luettelosta
+    - luettelossa näytettäviä tiloja voi rajata toiminnallisuuksittain
+	- haun tilavalinnat voi tallentaa
+	- tallennetun tilavalinnan saa uuden haun pohjaksi
+
 
 ### Ei-funktionaaliset vaatimukset
-- 
+- järjestelmä ehdottaa kolmen merkin kirjoittamisen jälkeen täydennystä tilan nimelle
