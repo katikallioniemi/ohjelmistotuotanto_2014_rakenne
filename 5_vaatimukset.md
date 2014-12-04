@@ -19,15 +19,17 @@
     - järjestelmä ehdottaa kolmen merkin kirjoittamisen jälkeen täydennystä tilan nimelle 
     - käyttäjä voi valita ehdotusten joukosta yhden tai useamman
 - tilan voi lisätä tilavalintaan valitsemalla sen luettelosta
-- luettelossa näytettäviä tiloja voi rajata toiminnallisuuksittain, 
+- luettelossa näytettäviä tiloja voi rajata toiminnallisuuksittain
 - hakuvalinnat voi tallentaa 
 - tallennetun haun voi nimetä
 - tallennetun hakuvalinnan saa uuden haun pohjaksi
 
 ##### tulosten näyttäminen
-- tulokset saadaan ulos raakadatana
-- tulokset saadaan ulos taulukkona
-- tulokset saadaan ulos heat map -esityksenä
+- tulokset voidaan näyttää raakadatana
+- tulokset voidaan näyttää taulukkona
+- tulokset voidaan näyttää heat map -esityksenä
+- tulokset voidaan näyttää kuvaajana, aika / käyttäjät
+- haetut raportit tallentuvat käyttäjän omalle sivulle katsottavaksi myöhemmin
 
 ##### ylläpito
 - ylläpitäjä voi tarkastella/rajata/lisätä käyttäjän oikeuksia tarkastella tiloja 

@@ -19,7 +19,7 @@ Järjestelmän käyttäjäryhmät ovat "muurahaiset", "kyylät" ja ylläpitäjä
 
 ## Käyttötapaukset
 
-![Käyttäjätapaukset](http://users.metropolia.fi/~katikal/files/ohtu-projekti-UseCaseD.png)
+![Käyttäjätapaukset](http://users.metropolia.fi/~katikal/files/OLAF-UseCaseDiagram.png)
 
 ## Keskeiset käyttötapausskenaariot
 
