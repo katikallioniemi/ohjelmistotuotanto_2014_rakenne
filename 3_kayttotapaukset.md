@@ -23,18 +23,18 @@ Järjestelmän käyttäjäryhmät ovat "muurahaiset", "kyylät" ja ylläpitäjä
 
 ## Keskeiset käyttötapausskenaariot
 
-##### Ole tiloissa
-- ** käyttäjäryhmä:** "Muurahainen"
-- ** alkutila (initial state):** Henkilö saapuu kiinteistöön, mukanaan järjestelmään kuuluva, toimiva etälukutunniste.
+##### Käyttötapaus: Ole tiloissa
+- **käyttäjäryhmä:** "Muurahainen"
+- **alkutila (initial state):** Henkilö saapuu kiinteistöön, mukanaan järjestelmään kuuluva, toimiva etälukutunniste.
 - **normaali kulku (normal flow):**
 	1. Henkilö oleskelee tiloissa
 - **lopputila (end state):**
 	- Käyttäjä poistuu 
 
 ##### Käyttötapaus: hae tilan käyttöhistoria
-- ** käyttäjäryhmä**: "Kyylät"
-- ** alkutila:** Käyttäjä on kirjautunut järjestelmään
-- **normaali kulku: **
+- **käyttäjäryhmä**: "Kyylät"
+- **alkutila:** Käyttäjä on kirjautunut järjestelmään
+- **normaali kulku:**
     1. Valitse valikosta hakutoiminto
     1. Järjestelmä siirtyy hakusivulle
     2. Valitse haluttu tila, jonka data esitetään:
@@ -43,12 +43,12 @@ Järjestelmän käyttäjäryhmät ovat "muurahaiset", "kyylät" ja ylläpitäjä
     1. Valitse tarkastelun aikaväli
     1. Valitse datan esitystapa mahdollisten joukosta: heat map, kuvaaja (käyttäjät/aika), taulukko, raakadata **(muita?)**
     1. Valitse esitystapa valitsemalla sitä vastaava painike: näytä tai tallenna tiedostoon. 
-- ** lopputila (end state): **
+- **lopputila (end state):**
     -  Järjestelmä hakee tietokannasta valitut tiedot ja piirtää mahdolliset valitut visualisoinnit
     -  Järjestelmä näyttää haetut tiedot ja valitussa muodossa: jos valittiin tallenna tiedostoon, käyttöjärjestelmän dialogi kysyy tiedostojen tallennuspaikan. 
     - Jos valittiin näytä kuva, kuvan yhteydessä painikkeet, 1: tallenna kuvat/kuvaajat tiedostoon, ja käyttäjä voi tallentaa haun omiin hakuvalintoihin.
-- ** kuinka normaali kulku voi mennä pieleen **
-- ** vaihtoehtoiset kulut (alternate flow): **
+- **kuinka normaali kulku voi mennä pieleen**
+- **vaihtoehtoiset kulut (alternate flow):**
     1. kuten kohdat 1-2
     2. valitse tallennettu tilahaku uuden haun pohjaksi
     1. (mahdollisesti) tee tarvittavat muutoksia hakuun (kuten kohdat 3.1-6)
