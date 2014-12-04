@@ -1,7 +1,5 @@
 ## Johdanto
 
-* Mitä tehdään?
-* Miksi? Projektin taustatiedot, miksi tällainen projekti on olemassa?  
 
 OLAF-järjestelmä on analyysisovellus, jonka avulla voidaan kartoittaa ja visualisoida tietoja kiinteistön eri tilojen todellisista käyttöasteista. Järjestelmän tuottamat hakutulokset ja ennusteet perustuvat tallennetun paikannusdatan analysointiin. Valmiit hakutulokset esitetään käyttäjille ihmislukijalle intuitiivisessa visuaalisessa muodossa.
 
