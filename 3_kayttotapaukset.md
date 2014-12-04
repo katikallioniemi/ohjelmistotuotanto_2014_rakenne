@@ -11,11 +11,11 @@
 ##Käyttäjäryhmät
 Järjestelmän käyttäjäryhmät ovat "muurahaiset", "kyylät" ja ylläpitäjät. 
 
-**Muurahaiset** ovat tilojen käyttäjiä. He eivät suoraan vuorovaikuta sovelluksen kanssa, vaan ainoastaan tuottavat paikkatietodataa. Oletuksena jokaisella tilojen käyttäjällä on mukanaan etäluettava tunniste, joka on luettavissa käyttäjän oleskellessa missä tahansa rakennuksen tiloissa.
+**Muurahaiset** ovat kiinteistön tilojen käyttäjiä. He eivät suoraan vuorovaikuta sovelluksen kanssa, vaan ainoastaan tuottavat paikkatietodataa. Oletuksena jokaisella tilojen käyttäjällä on mukanaan etäluettava tunniste, joka on luettavissa käyttäjän oleskellessa missä tahansa rakennuksen tiloissa.
 
-**Kyylät** ovat analyysisovelluksen pääkäyttäjäryhmä. Heillä on pääsy järjestelmän tuottamaan analyysitietoon tilojen käytöstä. He hyödyntävät järjestelmän tuottamaa tietoa, esim. tilojen tehokkaampaa käyttöä suunniteltaessa.
+**Kyylät** ovat analyysisovelluksen pääkäyttäjäryhmä. Heillä on käyttöliittymäsovelluksen kautta pääsy järjestelmän tuottamaan analyysitietoon tilojen käytöstä. He hyödyntävät järjestelmän tuottamaa tietoa, esim. tilojen tehokkaampaa käyttöä suunniteltaessa.
 
-**Ylläpitäjät** hallinnoivat järjestelmää: pitävät huolen tilatietojen ajantasaisuudesta, lisäävät käyttäjiä ja muokkaavat käyttäjien oikeuksia, lisäävät muurahaisten etätunnisteet järjestelmään.
+**Ylläpitäjät** hallinnoivat järjestelmää. He pitävät huolen tilatietojen ajantasaisuudesta, lisäävät käyttäjiä ja muokkaavat käyttäjien oikeuksia, lisäävät muurahaisten etätunnisteet paikannusjärjestelmään.
 
 ## Käyttötapaukset
 
@@ -23,31 +23,41 @@ Järjestelmän käyttäjäryhmät ovat "muurahaiset", "kyylät" ja ylläpitäjä
 
 ## Keskeiset käyttötapausskenaariot
 
-##### Käyttötapaus: Ole tiloissa
+#### Käyttötapaus: Ole tiloissa
 - **käyttäjäryhmä:** "Muurahainen"
-- **alkutila (initial state):** Henkilö saapuu kiinteistöön, mukanaan järjestelmään kuuluva, toimiva etälukutunniste.
+- **alkutila (initial state):** Henkilö saapuu kiinteistöön, mukanaan järjestelmään kuuluva toimiva etälukutunniste.
 - **normaali kulku (normal flow):**
 	1. Henkilö oleskelee tiloissa
 - **lopputila (end state):**
 	- Käyttäjä poistuu 
+- **vaihtoehtoinen kulku (alternate flow):**
+	- Käyttäjällä ei ole etälukutunnistetta mukanaan
+	- Etälukutunnisteen lukeminen ei onnistu: tunniste on liian lähellä metalliesineitä, liian kaukana lukijasta, tunniste on vaurioitunut, paristo on lopussa, radiotaajuuksissa on häiriöitä, paikannusjärjestelmässä on toimintahäiriö...
+	- Etälukutunnistetta ei ole kirjattu järjestelmään tai se on poistettu järjestelmästä
+	- Paikannusjärjestelmässä on toimintahäiriö
+	- Käyttäjä on paikannusjärjestelmän katvealueella
+- **samanaikainen tapahtuma**
+	- Muut käyttäjät oleskelevat samoissa tiloissa, paikannusjärjestelmä lukee etätunnisteita
 
-##### Käyttötapaus: hae tilan käyttöhistoria
+Huomattavaa on, että missään kuluista (normaali tai vaihtoehtoinen) "muurahainen" eli tilojen käyttäjä ei saa suoraan järjestelmältä palautetta virhetilanteista tai järjestelmän normaalista toiminnasta. Järjestelmä pystyy silti tuottamaan paikkatietodataa ja toimimaan normaalisti, kunhan riittävän suuri osa etätunnisteista on riittävän usein luettavissa.
+
+***
+#### Käyttötapaus: hae tilan käyttöhistoria
 - **käyttäjäryhmä**: "Kyylät"
 - **alkutila:** Käyttäjä on kirjautunut järjestelmään
 - **normaali kulku:**
     1. Valitse valikosta hakutoiminto
-    1. Järjestelmä siirtyy hakusivulle
-    2. Valitse haluttu tila, jonka data esitetään:
+    2. Järjestelmä siirtyy hakusivulle
+    3. Valitse haluttu tila, jonka data esitetään:
         1.  lisää tiloja valintaan aktivoimalla ne pohjapiirroksesta / listalta / kirjoittamalla nimi (niin monta kertaa kuin tarpeen)
         2.  poista tiloja valinnasta kartalta / listalta (niin monta kertaa kuin tarpeen)
-    1. Valitse tarkastelun aikaväli
-    1. Valitse datan esitystapa mahdollisten joukosta: heat map, kuvaaja (käyttäjät/aika), taulukko, raakadata **(muita?)**
-    1. Valitse esitystapa valitsemalla sitä vastaava painike: näytä tai tallenna tiedostoon. 
+    4. Valitse tarkastelun aikaväli
+    5. Valitse datan esitystapa mahdollisten joukosta: heat map, kuvaaja (käyttäjät/aika), taulukko, raakadata **(muita?)**
+    6. Valitse esitystapa valitsemalla sitä vastaava painike: näytä tai tallenna tiedostoon. 
 - **lopputila (end state):**
     -  Järjestelmä hakee tietokannasta valitut tiedot ja piirtää mahdolliset valitut visualisoinnit
     -  Järjestelmä näyttää haetut tiedot ja valitussa muodossa: jos valittiin tallenna tiedostoon, käyttöjärjestelmän dialogi kysyy tiedostojen tallennuspaikan. 
     - Jos valittiin näytä kuva, kuvan yhteydessä painikkeet, 1: tallenna kuvat/kuvaajat tiedostoon, ja käyttäjä voi tallentaa haun omiin hakuvalintoihin.
-- **kuinka normaali kulku voi mennä pieleen**
 - **vaihtoehtoiset kulut (alternate flow):**
     1. kuten kohdat 1-2
     2. valitse tallennettu tilahaku uuden haun pohjaksi
