@@ -8,6 +8,7 @@ Järjestelmään kuuluvan paikannusjärjestelmän hoitama paikannusdatan keruu, 
 Järjestelmä pyrkii turvaamaan tilojen käyttäjien yksityisyydensuojan, eikä järjestelmän keräämien tietojen avulla pystytä esimerkiksi seuraamaan yksittäisen käyttäjän kulkua tiloissa.
 
 Järjestelmän tuottamia visualisointeja ja ennusteita voidaan hyödyntää tilankäytön suunnittelussa, sekä yhdistettynä muiden käytössä olevien järjestelmien tarjoamiin tietoihin, voidaan tilojen käyttöä ja ylläpitoa optimoida.
+
 Esimerkiksi yhdistelemällä saatuja tietoja tilanvaraustietoihin ja opetusryhmien lukujärjestystietoihin, voidaan tuleville tilavarauksille luoda ennusteita toteumista. Tällöin on mahdollista tarjota tilanvaraajille suosituksia opetustilan vaihtamisesta pienempään, tai ennusteita ruokalan ruuhkien muodostumiseen tiettyinä kellonaikoina.
 
 **OLAF-järjestelmän välttämättömät osat ovat:**
