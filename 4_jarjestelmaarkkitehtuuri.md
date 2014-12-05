@@ -60,3 +60,8 @@ Sovelluslogiikan tehtäviin voi liittyä myös tietojen yhdistelyä eri järjest
 Käyttäjienhallinnan keskeisin tehtävä on tarjota sovelluksen käyttöön käyttäjien autentikointi, ja suojata käyttäjätiedot muun sovelluksen ulkopuolelle. Käyttäjällä tulisi olla järjestelmän käyttöön ainoastaan sallitut valtuudet, ja käyttöliittymäkomponentin tulee tarjota kulloisenkin käyttäjäprofiilin mukaiset näkymät.
 
 ##KÄYTTÖLIITTYMÄ
+Järjestelmän pääkäyttäjärymä, "*kyylät*", sisältää useita erilaisia käyttäjäprofiileita, joilla kullakin ryhmällä on omat erityistarpeet tehtyjen hakujen esittämiseen. Olisi hankalaa toteuttaa yhtä, yhdenmukaista käyttöliittymää, joka täyttäisi optimaalisesti eri käyttäjäryhmien erilaiset tarpeet. Tästä syystä käyttöliittymä kannattaisi toteuttaa modulaarisena siten, että kullekin käyttäjäryhmälle voidaan tarjota sopiva valikoima perustyökaluja, ja että kukin käyttäjä voi edelleen muokata omaa hakunäkymäänsä yksilökohtaisten tarpeidensa mukaan, esim. lisäämällä työkalupalkkeihin omia pikavalintojaan.
+Järjestelmätasolla tämä edellyttää sitä, että tietokantaan tallennetaan kunkin käyttäjän käyttöliittymään tekemät personoinnit käyttäjäkohtaisesti.
+Toteutuksen täytyy olla kuitenkin sellainen, että käyttäjän ei ole mahdollista poistaa välttämättömiä elementtejä, kuten hakunappeja tai uloskirjautumisnappeja.
+
+Käyttöliittymä on kuvattu tarkemmin omassa dokumentissaan.
