@@ -16,6 +16,9 @@ Näkymässä on tekstikentät käyttäjän tunnukselle ja salasanalle sekä pain
 
 #### Päänäkymä
 
+![Käyttöliittymän mockup](http://users.metropolia.fi/~joonasli/ohtu-2014/OLAF_UI_mockup.jpg)
+**Käyttöliittymän havainnekuva**
+
 Päänäkymästä voidaan siirtyä tilahakuun, tallennettuihin hakuihin, omaan hakuhistoriaan tai kirjautua ulos, jolloin palataan sisäänkirjautumisnäkymään.
 Sisäänkirjautumisen jälkeen päänäkymässä esitetään valmis hakutulosnäkymä, jossa heat map -kuva, jonka hakuehtoina on kiinteistön aulatilat ja suurimmat käytävät ja ajanjaksona kuluva vuorokausi (tai edelliset kaksi tuntia) alkaen klo 8.00, tai käyttäjän valitsema oletusnäkymä.
 

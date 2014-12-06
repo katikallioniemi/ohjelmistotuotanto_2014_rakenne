@@ -62,21 +62,21 @@ Huomattavaa on, että missään kuluista (normaali tai vaihtoehtoinen) "muurahai
     2. Käyttäjälle esitetään hakusivu, osa käyttöliittymäkomponenteista päivittyy hakunäkymän mukaisiksi
     3. Rajaa hakuparametriksi haluttu tila tai ryhmä tiloja:
         1.  lisää tiloja valintaan aktivoimalla ne
-	        2. pohjapiirroksesta
-	        3. listalta
-	        4. kirjoittamalla nimi (niin monta kertaa kuin tarpeen)
+	        1. pohjapiirroksesta
+	        2. listalta
+	        3. kirjoittamalla nimi (niin monta kertaa kuin tarpeen)
         2.  poista tiloja valinnasta kartalta / listalta (niin monta kertaa kuin tarpeen)
     4. Rajaa hakuparametriksi haluttu ajanjakso aikajanalta
-	    5. liukusäätimillä
-	    6. syöttämällä päivämäärätiedot kenttiin
-	    7. rastittamalla haluttujen viikkojen valintaruudut
+	    1. liukusäätimillä
+	    2. syöttämällä päivämäärätiedot kenttiin
+	    3. rastittamalla haluttujen viikkojen valintaruudut
     5. Valitse visualisoinnin esitystapa mahdollisten joukosta
-	    6. heat map
-	    10. ortograafinen 3D
-	    7. kuvaaja (käyttäjät/aika)
-	    8. taulukko
-	    9. raakadata
-	    10. (muita?)
+	    1. heat map
+	    2. ortograafinen 3D
+	    3. kuvaaja (käyttäjät/aika)
+	    4. taulukko
+	    5. raakadata
+	    6. (muita?)
     6. Suorita hakutoiminto valitsemalla hakupainike.
     7. Tarkastele hakutuloksia käyttöliittymän näkymässä.
     8. Mahdollisesti tallenna hakutulos tai hakuparametrit pikavalinnaksi, tai tulosta hakutulos
