@@ -86,14 +86,16 @@ Huomattavaa on, että missään kuluista (normaali tai vaihtoehtoinen) "muurahai
 	- Mikäli käyttäjä halusi tallentaa hakuparametrit, lisätään käyttäjän tallennettuihin hakuihin uusi pikavalinta.
 	- Hakutulosten rajaukset säilyvät seuraavaa hakua varten
 - **vaihtoehtoiset kulut:**
-    3a. Valitse valintapalkista aiempi tallennettu hakupikavalinta
-    3b. Valitse yksi oletuspikavalinnoista (esim. uusi puoli, vanha puoli, kaikki ATK-luokat, kaikki auditoriot, ruokala)
-    4a. Käyttäjä jättää valitsematta mitään ajanjaksoja. Voidaan joko muistuttaa käyttäjää valinnoista, tai käyttää oletusaikajaksoa, esim. yhtä viikkoa.
-    5a. Käyttäjä jättää valitsematta esitystavan. Käytetään oletusesitystapana heat mappia.
-    7a. Tulosta käyttäjälle virheilmoitus epäonnistuneesta hausta. Ehdota ratkaisuja, jos virheen syy on tiedossa.
-    7b. Jos esitystavaksi oli valittu taulukko, tarjoa mahdollisuuksia järjestää taulukon tietoja
-    3-5b. Muokkaa aiemman haun valintoja ja tee uusi haku
+    - 3a. Valitse valintapalkista aiempi tallennettu hakupikavalinta
+    - 3b. Valitse yksi oletuspikavalinnoista (esim. uusi puoli, vanha puoli, kaikki ATK-luokat, kaikki auditoriot, ruokala)
+    - 4a. Käyttäjä jättää valitsematta mitään ajanjaksoja. Voidaan joko muistuttaa käyttäjää valinnoista, tai käyttää oletusaikajaksoa, esim. yhtä viikkoa.
+    - 5a. Käyttäjä jättää valitsematta esitystavan. Käytetään oletusesitystapana heat mappia.
+    - 7a. Tulosta käyttäjälle virheilmoitus epäonnistuneesta hausta. Ehdota ratkaisuja, jos virheen syy on tiedossa.
+    - 7b. Jos esitystavaksi oli valittu taulukko, tarjoa mahdollisuuksia järjestää taulukon tietoja
+    - 3-5b. Muokkaa aiemman haun valintoja ja tee uusi haku
+
 ***
+
 #### Käyttötapaus: lisää järjestelmään uusi käyttäjä
 - **käyttäjäryhmä**: Ylläpitäjät
 - **alkutila:** Ylläpitäjä on kirjautunut järjestelmään, ja valinnut "käyttäjien hallinta" -ylläpitonäkymän.
