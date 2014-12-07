@@ -61,3 +61,5 @@ Käyttäjällä on mahdollisuus valita tiloja eri tavoin:
 - Käyttöliittymän on oltava niin helppokäyttöinen, että uuden käyttäjän on voitava suorittaa onnistunut tilahaku ilman ohjekirjaa <3 minuutissa.
 - käyttöliittymäsovelluksen, hakulogiikan ja tietokantajärjestelmän täytyy pystyä palvelemaan 500 yhtäaikaista käyttäjää. (1 hakutoiminto per 30 sek, per käyttäjä, jokaisella perättäisellä haulla 1/3 eri hakuvaihtoehdot.
 - hakutulosten esittämisen viive ei saa olla yli 3000 ms hakupyynnön lähettämisen jälkeen
+- yksittäisen "muurahaisen" liikkeet eivät ole seurattavissa
+- yksittäisen "muurahaisen" henkilöllisyys ei tallennu
