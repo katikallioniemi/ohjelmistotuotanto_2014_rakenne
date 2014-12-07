@@ -1,7 +1,8 @@
-ohjelmistotuotanto_2014_rakenne
+OLAF-tilankäytönseurantajärjestelmä
 ===============================
 
-Syksyn 2014 ohjelmistotuotantokurssin rakenne
+Tämä kansio sisältää Metropolia Ammattikorkeakoulun ohjelmistotuotantokurssin projektityön, jonka tehtävänä oli kirjoittaa vaatimusmäärittelydokumentaatio  sisätilapaikannusta hyödyntävästä sovelluksesta. 
 
-* Projektityön sisältö kirjoitetaan tässä projektissa annettuun pohjaan
-* Älä vaihda tiedostojen nimiä tai numerointia
+
+Kurssi Ohjelmistotuotanto, syksy 2014
+Tekijät Kati Kallioniemi, Joonas Lintunen
