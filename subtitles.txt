@@ -1,0 +1,49 @@
+0:00.50	-	0:03.25	Projektihommia on nyt jo enemmän kuin ehditään hoitamaan.
+0:04.00	-	0:05.65	Lähes kaikilla kursseilla on jonkinlainen ryhmätehtävä -
+0:05.85	-	0:07.50	ja deadlinet lähestyvät uhkaavasti joka puolelta.
+0:08.00	-	0:12.00	Viimeisimpänä on nyt lisäksi tämä Ollin ja Matin uusmedialuomus -
+0:12.10	-	0:15.50	GitHubiin palautettava projektityö jostain sisätilapaikannuksesta.
+0:17.50	-	0:19.00	Perustetaan Google Driveen uusi dokumentti -
+0:19.00	-	0:21.50	ja otetaan homma haltuun. Älkää huoliko.
+0:24.75	-	0:26.50	Herra johtaja...
+0:27.50	-	0:28.50	Drive...
+0:31.00	-	0:33.50	Drive on bännissä tämän tehtävän osalta.
+0:34.00	-	0:36.00	Lisäksi on pakko käyttää Markdownia.
+0:53.00	-	0:58.50	Huoneeseen jäävät vain ne, jotka ovat edes kuulleet sisäpaikannuksesta, Markdownista tai Gitistä. Muut ulos.
+1:13.00	-	1:15.00	Mitä nyt hevonvittua!
+1:15.25	-	1:17.75	Vai on pakko käyttää Gittiä palautukseen, saatana!
+1:18.75	-	1:23.25	Mitä paskaa! Että luonnollisen kielen kanssa koodaustyökaluja?
+1:25.25	-	1:28.00	Kuin kaivaisi ojaa vasaralla.
+1:29.25	-	1:31.00	Ja projektiaihekin on pirun tarkasti rajattu.
+1:31.50	-	1:34.00	Sellainen joustamattomuus on silkkaa fasismia.
+1:34.75	-	1:37.75	Aivan kuin varsinaisen projektin tehtävissä ei olisi jo tarpeeksi vaivaa
+1:37.50	-	1:40.50	niin siihen päälle pitäisi opetella joku Gitti.
+1:40.50	-	1:42.75	Herra johtaja, mutta työnantajat arvostaa GitHub-tunnuksia
+1:42.75	-	1:46.25	Joo, ja Drupal-osaajia! Pelkkiä forkkeja kaikkien tunnukset täynnä!
+1:46.50	-	1:48.80	Herra johtaja, yks toimari sanoi mulle niin ihan itse.
+1:48.80	-	1:52.00	Onko sulla jotain märkiä unia kesäduunista, noilla näytöillä?
+1:53.00	-	1:54.50	Turha luulo!
+1:56.00	-	1:57.75	Ykköset koodaa Javalla robotteja ja esittelee -
+1:57.75	-	2:00.50	niitä Inno-päivillä kaikille, ja me oiotaan käsin -
+2:00.50	-	2:03.50	Gitin konflikteja kolme tuntia viikossa ja rukoillaan ettei Firefox kaadu.
+2:04.50	-	2:08.00	Virtuaalikoneella ei edes ole mitään järkevää markdown-editoria.
+2:08.75	-	2:13.50	Pakko käyttää jotain online-käkkyrää, kun koneisiin ei saa asennettua itse ohjelmia.
+2:14.00	-	2:16.75	Drive on luotu juuri tällaista varten, mutta ei!
+2:17.50	-	2:21.75	Täytyy käyttää Gitiä komentoriviltä, kun sen on aikanaan luonut joku suuri ja mahtava Torvalds!
+2:27.00	-	2:29.00	Seuraavaksi meille varmaan tungetaan Linuxia kurkusta alas.
+2:30.50	-	2:34.00	Mutta periksi ei anneta. Minä olen Mac-mies, henkeen ja vereen!
+2:34.50	-	2:36.50	Ile, Aarne ja minä, mäkkimiehiä!
+2:41.00	-	2:42.50	Hitot!
+2:43.00	-	2:47.50	Kun se Git on kuitenkin pakko nykyään osata, miksei sen käyttöön anneta parempia työkaluja.
+2:48.50	-	2:53.00	Projektin kokonaisuutta ja etenemistä on mahdoton arvioida komentoriviltä tai tiedostolistauksesta.
+2:54.00	-	2:56.00	Ja ne pirun konfliktit versionhallinnassa.
+2:56.50	-	2:59.75	Mattikin silloin labrassa vaan jyräsi sen koko forkin sillä mergellä.
+3:00.00	-	3:02.50	Drivessäkin on versionhallinta, mutta se ei sit muka kelpaa!
+3:04.75	-	3:07.50	Mutta mehän saatiin se tiedosto kuitenkin palautettua.
+3:14.25	-	3:16.25	Luennotkin on maanantaisin kahdeksalta.
+3:19.25	-	3:23.25	Olmin luennot ovat kyllä kuitenkin olleet ihan OK.
+3:25.55	-	3:27.75	Läsnäolot vaikuttavat kuitenkin arvosteluun.
+3:31.50	-	3:33.75	Kymmenisen prosenttia.
+3:40.75	-	3:46.25	Tuskin tentissäkään kysytään mitään sisätilapaikannuksesta
+3:46.50	-	3:49.00	että hukkaan meni sekin vaiva.
+3:53.75	-	3:56.00	Forkatkaa se Olmin gitti.
