@@ -19,3 +19,12 @@ Seuraavassa määrittelyprojektissa käyttäisin tekstin muokkaamiseen nimenomai
 
 Näillä resursseilla ja aikatauluilla olen työhön ihan tyytyväinen. Aikaa olisi voinut mennä ehkä vähän vähemmän, niin pystyisi olemaan ehkä tyytyväisempi myös niihin kaikkiin muihinkin töihin, joita samaan aikaan on valmistumassa. Tässä nyt sattui olemaan deadline ensimmäisenä, niin tämä meni ykkösprioriteetilla.
 -J-
+
+--
+
+Aikaa projektiin tuntui uppoavan paljon ennakoitua enemmän. Tekeminen kasautui muiden töiden ja projektien takia vasta viimeiselle viikolle ennen palautusta. Epätoivo kasvoi sitä mukaa, kun valmista ei ollut tullakseen ylipitkistä koululla vietetyisä päivistä huolimatta. Työtehoni todella ole parhaimmillaan väsyneenä ja epätoivoisena. Työryhmän jäsenistä molemmilla lienee myös jonkin asteista taipumusta täydellisyyden tavoitteluun. 
+
+Dokumentaation kirjoittamisesta teki vaikeahkoa myös se, että luomamme sisätilapaikannusjärjestelmä tuntui melko monimutkaiselta. Varsinaisia lopullisia päätöksiä siitä, mitä järjestelmä sisältää ja mihin sitä käytetään, ei oikeastaan tehty kunnolla projektin alkumetreillä, vaan dokumentin eri osioita kirjoiteltiin ilman yhteistä kokonaiskuvaa järjestelmästä. Eri osioiden välillä olikin aika ajoin ristiriitaisuuksia, kun järjestelmän reunaehdot elivät sitä mukaa, kun niitä pohdiskeli eri näkökulmista. 
+
+Olen lopputulokseen ihan tyytyväinen, itse työaikaan en niinkään. 
+-kati
